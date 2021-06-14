@@ -3,7 +3,7 @@ from _thread import *
 import pickle
 from game import Game
 
-server = socket.gethostname(socket.gethostname())
+server = socket.gethostbyname(socket.gethostname())
 #print(str(server)) do this to find the correct ip to put in network.py
 port = 5555
 
